@@ -44,6 +44,7 @@ a:hover {
   transition-timing-function: ease-out;
   transition-delay: 200ms; */
   transition: background-color 400ms ease-out 200ms;
+  animation: focus 400ms ease-in;
 }
 
 .four {
@@ -69,5 +70,14 @@ a:hover {
   }
   100% {
     transform: rotateY(-180deg);
+  }
+}
+
+@keyframes focus {
+  0% {
+    filter: blur(12px);
+  }
+  100% {
+    filter: blur(0px);
   }
 }
