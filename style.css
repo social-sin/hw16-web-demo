@@ -36,7 +36,10 @@ a:hover {
 }
 
 .three {
-
+  transition-property: background-color;
+  transition-duration: 400ms;
+  transition-timing-function: ease-out;
+  transition-delay: 200ms;
 }
 
 .four {
