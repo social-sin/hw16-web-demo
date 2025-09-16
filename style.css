@@ -1,0 +1,45 @@
+/* Basic page style resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 36px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a {
+  display: block;
+  width: 300px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  margin: 10% auto;
+  background-color: DodgerBlue;
+  text-align: center;
+  color: FloralWhite;
+}
+
+a:hover {
+
+}
+
+.one {
+
+}
+
+.two {
+
+}
+
+.three {
+
+}
+
+.four {
+}
+
+.five {
+
+}
