@@ -23,6 +23,7 @@ a {
 
 a:hover {
   background-color: ForestGreen;
+  font-size: 46px;
 }
 
 .one {
@@ -44,6 +45,7 @@ a:hover {
 }
 
 .four {
+  transition: background-color 400ms ease-out 200ms, font-size 800ms linear 100ms;
 }
 
 .five {
