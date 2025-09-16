@@ -29,6 +29,7 @@ a:hover {
 .one {
   transition-property: background-color;
   transition-duration: 2s;
+  animation: scaleUp 400ms ease 200ms;
 }
 
 .two {
@@ -50,4 +51,13 @@ a:hover {
 
 .five {
   transition: all 400ms ease-out 200ms;
+}
+
+@keyframes scaleUp {
+  0% {
+    transition: scale(.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
